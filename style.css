@@ -57,7 +57,7 @@
 }
 
 .services img {
-	width: 50%;
+	max width: 50%;
 	border-radius: 10px;
 	margin-bottom: 20px;
 	animation: imageShow 1.5s ease;
@@ -98,8 +98,6 @@
 	transform: translateY(-5px);
 }
 
-
-@media (max-width: 768px) {
 	.menu {
 		float: none;
 		justify-content: center;
