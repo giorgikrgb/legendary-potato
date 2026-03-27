@@ -156,10 +156,6 @@ body {
 	}
 }
 
-@keyframes shape-image-threshold: {0%; 100:
-}
-	filter: border-right: ;
-
 @keyframes fadeIn {
 	from {
 		opacity: 0;
