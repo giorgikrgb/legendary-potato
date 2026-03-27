@@ -41,15 +41,27 @@
 	color: #ff9800;
 }
 
+
 .services {
 	padding: 50px 0;
 	text-align: center;
+.imageShow {
+	from {
+		opacity: 0;
+		transform: scale(0.8);
+	}
+	to {
+		opacity: 1;
+		transform: scale(1);
+	}
 }
 
 .services img {
 	max width: 50%;
 	border-radius: 10px;
 	margin-bottom: 20px;
+	animation: imageShow 1.5s ease;
+	transition: transform 0.4s, box-shadow 0.4s;
 }
 
 .services h1 {
@@ -59,6 +71,8 @@
 .products img{width: 50%;
 	border-radius: 10px;
 	margin-bottom: 20px;
+	animation: imageShow 1.5s ease;
+	transition: transform 0.4s, box-shadow 0.4s;
 }
 
 .products {
